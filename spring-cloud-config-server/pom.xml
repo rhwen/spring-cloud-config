@@ -52,7 +52,7 @@
 			  <transformers>
 				<!-- add Main-Class to manifest file -->
                     <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-					<mainClass>com.redhat.sample.config.server</mainClass>
+					<mainClass>com.redhat.sample.config.server.App</mainClass>
 				</transformer>
 			  </transformers>
 			</configuration>
