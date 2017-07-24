@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: redis
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://127.0.0.1:8080/
+
+server:
+  port: 8081
+
+management: 
+  security:
+    enabled: false
